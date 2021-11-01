@@ -16,3 +16,7 @@ Data is formatted line-by-line. The way I have it, each line is a single sentenc
 To run the experiments, use the following line:
 
 `source run_wikipedia.sh EN_SIZE OTHER_SIZE OTHER_LANG`
+
+### Static Embeddings
+
+After downloading the [Public Bible Corpus](http://www.lrec-conf.org/proceedings/lrec2014/pdf/220_Paper.pdf), run the bash script `run.sh` (you will need to update the `WORKDIR` and `BIBLEDIR` variables) found in the `static` folder.
